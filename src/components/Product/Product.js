@@ -11,6 +11,7 @@ const Product = ({ product }) => {
       <img src={img} alt=""></img>
       <div className="product-info">
         <h3 className="product-name">{name}</h3>
+        <p>Product Id: {id}</p>
         <p>
           Price: <span>$</span>
           {price}{" "}
