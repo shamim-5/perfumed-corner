@@ -1,16 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cart.css";
 
-const Cart = () => {
+const Cart = ({ cart }) => {
+  const { name } = cart;
+
+  let newCart = [];
+  console.log(newCart);
+  for (const item of cart) {
+    newCart.push(item);
+  }
+
   return (
     <div className="cart-heading">
       <h3>Selected Products: </h3>
       <div className="cart">
         <div className="cart-items">
-          <p>name1</p>
-          <p>name1</p>
-          <p>name1</p>
-          <p>name1</p>
+          {newCart.map((item) => (
+            <p>{item.name}</p>
+          ))}
         </div>
 
         <div className="btn-choose">
