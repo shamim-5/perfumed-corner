@@ -18,12 +18,16 @@
   margin-bottom: 10px;
 }
 .choose-one {
+  background: #dbeafe;
+}
+.choose-one p {
   color: #2563eb;
-  background: #c7d2fe;
 }
 .choose-again {
+  background: #ccfbf1;
+}
+.choose-again p {
   color: #15803d;
-  background: #c7d2fe;
 }
 .choose-one:hover {
   background-color: #ddd6fe;
