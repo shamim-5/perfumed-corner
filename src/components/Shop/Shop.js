@@ -13,30 +13,39 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
+  // selected product event handler
+  let newCart = [];
   const addToCart = (selectedProduct) => {
-    let newCart = [];
     const exists = cart.find((element) => element.id === selectedProduct.id);
     if (!exists) {
-      selectedProduct.quantity = 1;
       newCart = [...cart, selectedProduct];
     } else {
       const rest = cart.filter((element) => element.id !== selectedProduct.id);
-      exists.quantity = exists.quantity + 1;
       newCart = [...rest, exists];
     }
 
     setCart(newCart);
   };
 
+  // choose one button event handler
+  const showRandomProduct = (chooseOne) => {
+    newCart = [];
+    const selectOne = Math.floor(Math.random() * chooseOne.length);
+    newCart = [chooseOne[selectOne]];
+    setCart(newCart);
+  };
+
   return (
     <div className="shop-container">
+      {/* product container handled from product component  */}
       <div className="product-container">
         {products.map((product) => (
           <Product addToCart={addToCart} key={product.id} product={product}></Product>
         ))}
       </div>
+      {/* cart container handled from cart component  */}
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart} products={products} showRandomProduct={showRandomProduct}></Cart>
       </div>
     </div>
   );

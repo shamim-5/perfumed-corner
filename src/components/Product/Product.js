@@ -4,6 +4,7 @@ import React from "react";
 import "./Product.css";
 
 const Product = ({ product, addToCart }) => {
+  // destructuring info from props
   const { id, name, price, ratings, img } = product;
 
   return (
