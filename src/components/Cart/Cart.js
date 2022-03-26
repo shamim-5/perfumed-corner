@@ -1,12 +1,7 @@
 import "./Cart.css";
 import ShowProduct from "../ShowProduct/ShowProduct";
 
-const Cart = ({ cart, products, showRandomProduct }) => {
-  // cart clear button event handler
-  const clearCart = () => {
-    document.getElementById("clear-cart").textContent = "";
-  };
-
+const Cart = ({ cart, products, showRandomProduct, clearCart }) => {
   return (
     <div className="cart-heading">
       <h3>Selected Products: </h3>

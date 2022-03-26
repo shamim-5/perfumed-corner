@@ -27,6 +27,8 @@ const Shop = () => {
     setCart(newCart);
   };
 
+  console.log(cart);
+
   // choose one button event handler
   const showRandomProduct = (chooseOne) => {
     newCart = [];
@@ -35,6 +37,11 @@ const Shop = () => {
     setCart(newCart);
   };
 
+  // cart clear button event handler
+  const clearCart = () => {
+    newCart = [];
+    setCart(newCart);
+  };
   return (
     <div className="shop-container">
       {/* product container handled from product component  */}
@@ -45,7 +52,7 @@ const Shop = () => {
       </div>
       {/* cart container handled from cart component  */}
       <div className="cart-container">
-        <Cart cart={cart} products={products} showRandomProduct={showRandomProduct}></Cart>
+        <Cart cart={cart} products={products} showRandomProduct={showRandomProduct} clearCart={clearCart}></Cart>
       </div>
     </div>
   );
