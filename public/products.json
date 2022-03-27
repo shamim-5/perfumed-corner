@@ -6,7 +6,7 @@
     "price": 720,
     "ratings": 4,
     "ratingsCount": 9725,
-    "img": "./images/alina-rubo.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364688/lucky-one/alina-rubo_ghj1tt.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -17,7 +17,7 @@
     "price": 796,
     "ratings": 5,
     "ratingsCount": 9355,
-    "img": "./images/ash-edmonds.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364689/lucky-one/ash-edmonds_umdqie.jpg",
     "shipping": 14,
     "quantity": 0
   },
@@ -28,7 +28,7 @@
     "price": 745,
     "ratings": 4,
     "ratingsCount": 9972,
-    "img": "./images/camille-paralisan.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364686/lucky-one/camille-paralisan_q9ekpr.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -39,7 +39,7 @@
     "price": 729,
     "ratings": 5,
     "ratingsCount": 9764,
-    "img": "./images/jeroen-den.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364686/lucky-one/jeroen-den_lfco1u.jpg",
     "shipping": 32,
     "quantity": 0
   },
@@ -50,7 +50,7 @@
     "price": 787,
     "ratings": 4,
     "ratingsCount": 999,
-    "img": "./images/jessica-weiller.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364686/lucky-one/jessica-weiller_fm9jks.jpg",
     "shipping": 49,
     "quantity": 0
   },
@@ -61,7 +61,7 @@
     "price": 738,
     "ratings": 3,
     "ratingsCount": 9372,
-    "img": "./images/laura-chouette-Icx.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364686/lucky-one/laura-chouette-Icx_iled1x.jpg",
     "shipping": 19,
     "quantity": 0
   },
@@ -72,7 +72,7 @@
     "price": 726,
     "ratings": 4,
     "ratingsCount": 9870,
-    "img": "./images/laura-chouette.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364686/lucky-one/laura-chouette_ox1y6a.jpg",
     "shipping": 15,
     "quantity": 0
   },
@@ -83,7 +83,7 @@
     "price": 719,
     "ratings": 4,
     "ratingsCount": 9360,
-    "img": "./images/lucas-mendes.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364686/lucky-one/lucas-mendes_vsqlox.jpg",
     "shipping": 50,
     "quantity": 0
   },
@@ -94,7 +94,7 @@
     "price": 760,
     "ratings": 5,
     "ratingsCount": 9976,
-    "img": "./images/lum-co.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364687/lucky-one/lum-co_roumrj.jpg",
     "shipping": 46,
     "quantity": 0
   },
@@ -105,7 +105,7 @@
     "price": 737,
     "ratings": 4,
     "ratingsCount": 965,
-    "img": "./images/siora.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364689/lucky-one/siora_ltrxeh.jpg",
     "shipping": 36,
     "quantity": 0
   },
@@ -116,7 +116,7 @@
     "price": 746,
     "ratings": 5,
     "ratingsCount": 9702,
-    "img": "./images/maxim-lozyanko.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364688/lucky-one/maxim-lozyanko_qwxp5y.jpg",
     "shipping": 29,
     "quantity": 0
   },
@@ -127,7 +127,7 @@
     "price": 709,
     "ratings": 5,
     "ratingsCount": 9688,
-    "img": "./images/maxim.jpg",
+    "img": "https://res.cloudinary.com/dskmjlma4/image/upload/v1648364686/lucky-one/maxim_jmarzw.jpg",
     "shipping": 48,
     "quantity": 0
   }

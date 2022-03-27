@@ -6,7 +6,6 @@ import "./Product.css";
 const Product = ({ product, addToCart }) => {
   // destructuring info from props
   const { id, name, price, ratings, img } = product;
-
   return (
     <div className="product">
       <img src={img} alt=""></img>
