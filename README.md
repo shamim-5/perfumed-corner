@@ -3,4 +3,4 @@
 # lucky-one-mss38
 
 ## [Private Repo Link](https://github.com/Programming-Hero-Web-Course4/lucky-one-mss38)
-Click here for live website : 
+Live Website LInk : [https://classroom.github.com/a/AD3X5Pv-](https://lucky-one123.netlify.app/)
